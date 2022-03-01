@@ -1,0 +1,33 @@
+{
+    "name": "theanh24/test",
+    "description": "A to-do list application that allows the user to create and manage tasks",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Utilities/helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Anh Dang The",
+            "email": "theanh24@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0|^8.0",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "larapack/dd": "1.*",
+        "tightenco/collect": "dev-laravel-8-ongoing"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
